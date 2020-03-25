@@ -45,13 +45,13 @@ def scrape():
         hemi_imgs.append(i)
 
     mars_scrape = {"News Title": news_title,
-           "Mars Image": mars_img,
-           "Mars Weather": mars_weather,
-           "Mars Table": mars_table,
-           "Hemisphere 1": hemi_imgs[0],
-           "Hemisphere 2": hemi_imgs[1],
-           "Hemisphere 3": hemi_imgs[2],
-           "Hemisphere 4": hemi_imgs[3]}
+           "Mars_Image": mars_img,
+           "Mars_Weather": mars_weather,
+           "Mars_Table": mars_table,
+           "Hemisphere_1": hemi_imgs[0],
+           "Hemisphere_2": hemi_imgs[1],
+           "Hemisphere_3": hemi_imgs[2],
+           "Hemisphere_4": hemi_imgs[3]}
     
     browser.quit()
     return mars_scrape
