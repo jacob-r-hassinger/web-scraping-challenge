@@ -11,7 +11,32 @@
 
     <body>
         <div class="container text-center">
-        <h1 class="jumbotron" style="background-image: url({data.Mars_Image})">Mission to Mars</h1>
+        <h1 class="jumbotron">Mission to Mars</h1>
+        <h2 class = "button">
+            <a href = "/scrape">Scrape Here</a>
+        </h2>
+        <div class="row">
+            <div class = "col-md-12">Mars News</div>
+        </div>
+        <div class="row">
+            <div class = "col-md-8">
+                <h1>Featured Mars Image</h1>
+                <img src="{data.Mars_Image}">
+            </div>
+            <div class = "col-md-4">
+                <h1>A Table of Mars Facts</h1>
+                <div>{data.Mars_Table}</div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-12">
+                <h1>The Hemispheres of Mars</h1>
+                <img src="{data.Hemisphere_1}">
+                <img src="{data.Hemisphere_2}">
+                <img src="{data.Hemisphere_3}">
+                <img src="{data.Hemisphere_4}">
+            </div>
+        </div>
 
 
 
