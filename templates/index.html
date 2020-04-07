@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mission to Mars</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+
+    <body>
+        <div class="container text-center">
+        <h1 class="jumbotron">
+            <div class = "col-lg-12">Mission to Mars</div>
+            <button type = "button" class = "btn">
+            <a href = "/scrape">Scrape</a>
+            </button>
+        </h1>
+        
+        <div class="row">
+            <div class = "col-md-12">Mars News</div>
+        </div>
+        <div class="row">
+            <div class = "col-md-8">
+                <h1>Featured Mars Image</h1>
+                <img src="{{data.Mars_Image}}">
+            </div>
+            <div class = "col-md-4">
+                <h1>A Table of Mars Facts</h1>
+                <div>{{data.Mars_Table}}</div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-12">
+                <h1>The Hemispheres of Mars</h1>
+                <img src="{{data.Hemisphere_1}}">
+                <img src="{{data.Hemisphere_2}}">
+                <img src="{{data.Hemisphere_3}}">
+                <img src="{{data.Hemisphere_4}}">
+            </div>
+        </div>
+
+
+
+
+        </div>
+    </body>
+
+
+
+
+</html>
